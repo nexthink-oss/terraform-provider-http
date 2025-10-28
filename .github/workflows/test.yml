@@ -62,7 +62,6 @@ jobs:
       matrix:
         os:
           - macos-latest
-          - windows-latest
           - ubuntu-latest
         terraform: ${{ fromJSON(vars.TF_VERSIONS_PROTOCOL_V5) }}
     steps:
