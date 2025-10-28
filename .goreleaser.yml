@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 # Configuración estándar de GoReleaser para proveedores de Terraform
 project_name: terraform-provider-http
 
