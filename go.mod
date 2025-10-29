@@ -1,4 +1,4 @@
-module github.com/terraform-providers/terraform-provider-http
+module github.com/nexthink-oss/terraform-provider-http
 
 go 1.24.6
 
