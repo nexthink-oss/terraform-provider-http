@@ -10,7 +10,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
 
-	"github.com/terraform-providers/terraform-provider-http/internal/provider"
+	"github.com/nexthink-oss/terraform-provider-http/internal/provider"
 )
 
 func main() {
@@ -20,7 +20,7 @@ func main() {
 	flag.Parse()
 
 	err := providerserver.Serve(context.Background(), provider.New, providerserver.ServeOpts{
-		Address:         "registry.terraform.io/hashicorp/http",
+		Address:         "registry.terraform.io/nexthink-oss/http",
 		Debug:           debug,
 		ProtocolVersion: 5,
 	})
